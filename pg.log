@@ -1,0 +1,84 @@
+2026-10-26 18:50:15.254 GMT [9944] LOG:  syntax error in file "C:/Users/Omerta/OneDrive/Desktop/SQLforDataengineering/pgdata/postgresql.conf" line 849, near token ""
+2026-10-26 18:50:15.254 GMT [9944] LOG:  syntax error in file "C:/Users/Omerta/OneDrive/Desktop/SQLforDataengineering/pgdata/postgresql.conf" line 850, near token ""
+2026-10-26 18:50:15.254 GMT [9944] LOG:  syntax error in file "C:/Users/Omerta/OneDrive/Desktop/SQLforDataengineering/pgdata/postgresql.conf" line 851, near token ""
+2026-10-26 18:50:15.254 GMT [9944] FATAL:  configuration file "C:/Users/Omerta/OneDrive/Desktop/SQLforDataengineering/pgdata/postgresql.conf" contains errors
+2026-10-26 18:51:43.189 +00 [5548] LOG:  starting PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit
+2026-10-26 18:51:43.195 +00 [5548] LOG:  could not bind IPv6 address "::1": Permission denied
+2026-10-26 18:51:43.195 +00 [5548] LOG:  could not bind IPv4 address "127.0.0.1": Permission denied
+2026-10-26 18:51:43.195 +00 [5548] WARNING:  could not create listen socket for "localhost"
+2026-10-26 18:51:43.195 +00 [5548] FATAL:  could not create any TCP/IP sockets
+2026-10-26 18:51:43.197 +00 [5548] LOG:  database system is shut down
+2026-10-26 18:52:34.364 +00 [13392] LOG:  starting PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit
+2026-10-26 18:52:34.369 +00 [13392] LOG:  listening on IPv6 address "::1", port 5433
+2026-10-26 18:52:34.369 +00 [13392] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2026-10-26 18:52:34.437 +00 [7576] LOG:  database system was shut down at 2026-10-26 18:37:18 +00
+2026-10-26 18:52:34.473 +00 [13392] LOG:  database system is ready to accept connections
+2026-10-26 18:57:34.430 +00 [1296] LOG:  checkpoint starting: time
+2026-10-26 18:57:36.082 +00 [1296] LOG:  checkpoint complete: wrote 18 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.575 s, sync=0.047 s, total=1.653 s; sync files=10, longest=0.011 s, average=0.005 s; distance=61 kB, estimate=61 kB; lsn=0/1579B10, redo lsn=0/1579AB8
+2026-10-26 19:03:44.174 +00 [3636] ERROR:  syntax error at or near "(" at character 40
+2026-10-26 19:03:44.174 +00 [3636] STATEMENT:  select current_database(), current_user(), now();
+2026-10-26 19:05:31.741 +00 [3636] ERROR:  syntax error at or near "psql" at character 1
+2026-10-26 19:05:31.741 +00 [3636] STATEMENT:  psql -c "select current_database(), current_user(), now()"
+	psql -c "select current_database(), current_user(), now()"
+	psql -c "SELECT  current_database(), current_user(), now()"
+	SELECT current_database(), current_user, now();
+2026-10-26 19:06:13.161 +00 [13392] LOG:  received fast shutdown request
+2026-10-26 19:06:13.161 +00 [5824] ERROR:  canceling statement due to user request
+2026-10-26 19:06:13.172 +00 [13392] LOG:  aborting any active transactions
+2026-10-26 19:06:13.187 +00 [13392] LOG:  background worker "logical replication launcher" (PID 5824) exited with exit code 1
+2026-10-26 19:06:13.204 +00 [1296] LOG:  shutting down
+2026-10-26 19:06:13.209 +00 [1296] LOG:  checkpoint starting: shutdown immediate
+2026-10-26 19:06:14.386 +00 [1296] LOG:  checkpoint complete: wrote 964 buffers (5.9%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.096 s, sync=1.056 s, total=1.182 s; sync files=300, longest=0.064 s, average=0.004 s; distance=4535 kB, estimate=4535 kB; lsn=0/19E7768, redo lsn=0/19E7768
+2026-10-26 19:06:15.213 +00 [13392] LOG:  database system is shut down
+2026-10-26 19:06:40.020 +00 [2984] LOG:  starting PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit
+2026-10-26 19:06:40.024 +00 [2984] LOG:  listening on IPv6 address "::1", port 5433
+2026-10-26 19:06:40.024 +00 [2984] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2026-10-26 19:06:40.098 +00 [8896] LOG:  database system was shut down at 2026-10-26 19:06:14 +00
+2026-10-26 19:06:40.142 +00 [2984] LOG:  database system is ready to accept connections
+2026-10-26 19:08:12.965 +00 [12460] ERROR:  syntax error at or near "SELECT" at character 24
+2026-10-26 19:08:12.965 +00 [12460] STATEMENT:  Select * From postgres
+	SELECT * FROM postgres
+	SELECT * 
+	SELECT * FROM postgres;
+2026-10-26 19:11:40.087 +00 [2360] LOG:  checkpoint starting: time
+2026-10-26 19:11:40.123 +00 [2360] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.008 s, total=0.038 s; sync files=2, longest=0.005 s, average=0.004 s; distance=0 kB, estimate=0 kB; lsn=0/19E7870, redo lsn=0/19E7818
+2026-10-26 19:27:32.340 +00 [12460] ERROR:  syntax error at or near "/" at character 1
+2026-10-26 19:27:32.340 +00 [12460] STATEMENT:  /l
+	/c shop
+	SELECT current_database(), current_user, now();
+2026-10-26 19:31:48.609 +00 [2984] LOG:  received fast shutdown request
+2026-10-26 19:31:48.609 +00 [4608] ERROR:  canceling statement due to user request
+2026-10-26 19:31:48.616 +00 [2984] LOG:  aborting any active transactions
+2026-10-26 19:31:48.630 +00 [2984] LOG:  background worker "logical replication launcher" (PID 4608) exited with exit code 1
+2026-10-26 19:31:48.650 +00 [2360] LOG:  shutting down
+2026-10-26 19:31:48.654 +00 [2360] LOG:  checkpoint starting: shutdown immediate
+2026-10-26 19:31:48.677 +00 [2360] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.028 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/19E7920, redo lsn=0/19E7920
+2026-10-26 19:31:48.686 +00 [2984] LOG:  database system is shut down
+2026-10-26 19:32:33.743 +00 [5820] LOG:  starting PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit
+2026-10-26 19:32:33.748 +00 [5820] LOG:  listening on IPv6 address "::1", port 5433
+2026-10-26 19:32:33.748 +00 [5820] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2026-10-26 19:32:33.811 +00 [12480] LOG:  database system was shut down at 2026-10-26 19:31:48 +00
+2026-10-26 19:32:33.850 +00 [5820] LOG:  database system is ready to accept connections
+2026-10-26 19:32:36.566 +00 [5820] LOG:  received fast shutdown request
+2026-10-26 19:32:36.574 +00 [5820] LOG:  aborting any active transactions
+2026-10-26 19:32:36.600 +00 [5820] LOG:  background worker "logical replication launcher" (PID 12032) exited with exit code 1
+2026-10-26 19:32:36.601 +00 [9768] LOG:  shutting down
+2026-10-26 19:32:36.605 +00 [9768] LOG:  checkpoint starting: shutdown immediate
+2026-10-26 19:32:36.641 +00 [9768] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.009 s, total=0.040 s; sync files=2, longest=0.005 s, average=0.005 s; distance=0 kB, estimate=0 kB; lsn=0/19E7998, redo lsn=0/19E7998
+2026-10-26 19:32:36.667 +00 [5820] LOG:  database system is shut down
+2026-10-26 19:41:57.332 +00 [12840] LOG:  starting PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit
+2026-10-26 19:41:57.336 +00 [12840] LOG:  listening on IPv6 address "::1", port 5433
+2026-10-26 19:41:57.337 +00 [12840] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2026-10-26 19:41:57.399 +00 [10700] LOG:  database system was shut down at 2026-10-26 19:32:36 +00
+2026-10-26 19:41:57.439 +00 [12840] LOG:  database system is ready to accept connections
+2026-10-26 19:46:57.387 +00 [5696] LOG:  checkpoint starting: time
+2026-10-26 19:47:03.176 +00 [5696] LOG:  checkpoint complete: wrote 54 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.609 s, sync=0.152 s, total=5.791 s; sync files=47, longest=0.026 s, average=0.004 s; distance=272 kB, estimate=272 kB; lsn=0/1A2BC30, redo lsn=0/1A2BBA0
+2026-10-26 19:47:50.996 +00 [10468] ERROR:  syntax error at or near "ls" at character 1
+2026-10-26 19:47:50.996 +00 [10468] STATEMENT:  ls
+	select %
+	select *
+	select * from orders;
+2026-10-26 19:48:44.308 +00 [10468] ERROR:  syntax error at or near "cls" at character 1
+2026-10-26 19:48:44.308 +00 [10468] STATEMENT:  cls
+	clear
+	select * from orders;
